@@ -11,7 +11,7 @@ pipeline {
         maven 'maven3.9.0'
     }
   agent {
-  label 'my_slave1'
+  label 'new-slave-1'
   }
   stages{
     stage ('Checkout SCM') {
