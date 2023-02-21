@@ -16,7 +16,7 @@ spec:
         app: my-app
     spec:
       imagePullSecrets:
-      - name: ravi-docker-registry
+      - name: sathya-secret
       containers:
       - name: skydevops-container
         image: sathyaacharya/newimage:15
